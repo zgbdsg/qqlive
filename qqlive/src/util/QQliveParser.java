@@ -119,13 +119,9 @@ public class QQliveParser {
 			String tmp = url.toString();
 			if(tmp.indexOf("movie") != -1){
 				
-			}else if(tmp.indexOf("tv") != -1){
-				TVprocess tv = new TVprocess();
 			}else if(tmp.indexOf("cartoon") != -1){
 				
 			}else if(tmp.indexOf("variety") != -1){
-				
-			}else if(tmp.indexOf("mv") != -1){
 				
 			}else if(tmp.indexOf("information") != -1){
 				
@@ -142,6 +138,10 @@ public class QQliveParser {
 			}else if(tmp.indexOf("2012") != -1){
 				
 			}else if(tmp.indexOf("2013") != -1){
+				
+			}else if(tmp.indexOf("tv") != -1){
+				TVprocess tv = new TVprocess();
+			}else if(tmp.indexOf("mv") != -1){
 				
 			}
 			

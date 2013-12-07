@@ -22,4 +22,5 @@ public abstract class BaseProcess extends Thread{
 	
 	public abstract void getAllPage();
 	public abstract void getPageNum();
+	public abstract void getTrueUrl();
 }
